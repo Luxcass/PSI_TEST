@@ -2,7 +2,7 @@
 
 ## Informação do aluno
 
-    Nome: ...
+    Nome: Lucas Fernandes de Araújo 
 
 Teste termina às 09:40 (Turno 1) / 13:25 (Turno 2).
 
@@ -17,7 +17,7 @@ Não desformates o documento.
 
 P1 - Resposta
 
-    ...
+    É impresso "\n®\n".
 
 ### 2. Considera o seguinte código
 
@@ -30,8 +30,12 @@ P1 - Resposta
 
 P2 - Resposta
 
-    ...
+     double d = 0.3513;
+    float f = 12.645F;
 
+    Console.WriteLine($"{d} + {f} = {d + f}");
+    Temos que adicionar um "F" no final do número float.
+    
 ### 3. Escreve um programa que solicite uma string ao utilizador, e seguidamente a mostre no ecrã de forma invertida
 
 P3 - Resposta
@@ -42,4 +46,9 @@ P3 - Resposta
 
 P4 - Resposta
 
-    ...
+    git config --global user.name "Nome Apelido"
+    git config --global user.name "nome.apelido@gmail.com"
+
+    git remote add origin https://...
+    git branch -M main 
+    git push -u origin main 
